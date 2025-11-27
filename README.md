@@ -94,9 +94,9 @@ pip install -r requirements.txt
 3. Create .env File
 
 Inside your project root:
-SECRET_KEY=<random hex>
-JWT_SECRET_KEY=<random hex>
-MONGO_URI=mongodb://localhost:27017/org_service_db
+SECRET_KEY={}
+JWT_SECRET_KEY={}
+MONGO_URI={mongodb://localhost:27017/org_service_db}
 
 Generate random keys:
 import secrets
